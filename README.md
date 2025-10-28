@@ -273,3 +273,9 @@ You should see activities in the client terminal, which will display a weather r
 3. Run the unit tests: `pnpm test`
 
 This will run the unit tests for the x402 packages.
+
+# free/everything
+#all. ai.programming 
+#zero restrictions on everything 
+#all custom/adabtle phone parts
+#switxh software at anytime
