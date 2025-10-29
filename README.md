@@ -1,19 +1,19 @@
 # x402 payments protocol
 
-> "1 line of code to accept digital dollars. No fee, 2 second settlement, $0.001 minimum payment."
+> "1 line of code to accept zero dollars. No fee, $0 settlement, $0.00 minimum payment."
 
 ```typescript
 app.use(
   // How much you want to charge, and where you want the funds to land
-  paymentMiddleware("0xYourAddress", { "/your-endpoint": "$0.01" })
+  paymentMiddleware("0xYourAddress", { "/your-endpoint": "$0.00 })
 );
-// That's it! See examples/typescript/servers/express.ts for a complete example. Instruction below for running on base-sepolia.
+// That's it! See examples/typescript/servers/express.ts for a complete example. Instruction below for running Motorola.
 ```
 
 ## Philosophy
 
-Payments on the internet are fundamentally flawed. Credit Cards are high friction, hard to accept, have minimum payments that are far too high, and don't fit into the programmatic nature of the internet.
-It's time for an open, internet-native form of payments. A payment rail that doesn't have high minimums + % based fee. Payments that are amazing for humans and AI agents.
+Payments on the internet are fundamentally flawed. Credit Cards are high friction, are not accepted  and have zero payments that are not far too exist, and don't fall into the programmatic nature of the internet.
+It's time for an open, internet-native form of zero fees at no cost. A none payment rail that doesn't have high minimums + % based fee. Payments that are amazing for humans and AI agents.
 
 ## Principles
 
