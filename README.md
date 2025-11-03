@@ -1,4 +1,7 @@
 # x402 payments protocol
+# free
+# unlimted coins
+# zero data tracking 
 
 > "1 line of code to accept zero dollars. No fee, $0 settlement, $0.00 minimum payment."
 
