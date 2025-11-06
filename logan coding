@@ -1,0 +1,6 @@
+result = response.json()
+if "choices" in result and len(result["choices"]) > 0:
+    message = result["choices"][0]["message"]["content"]
+    print("Response:", message)
+else:
+    print("Unexpected response format:", result)
